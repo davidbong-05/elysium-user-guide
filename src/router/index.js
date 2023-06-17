@@ -49,6 +49,12 @@ const routes = [
         component: () =>
           import(/* webpackChunkName: "BuyNft" */ "@/views/BuyNft.vue"),
       },
+      {
+        path: "/contact-me",
+        name: "ContactMe",
+        component: () =>
+          import(/* webpackChunkName: "ContactMe" */ "@/views/ContactMe.vue"),
+      },
     ],
   },
 ];
