@@ -124,6 +124,15 @@
         to="/buy-nft#remove-nft-from-cart"
         variant="plain"
       ></v-list-item>
+      <v-list-item
+        class="text-primary"
+        to="/frequently-asked-questions"
+        :active="false"
+        variant="text"
+      >
+        <v-icon icon="mdi-frequently-asked-questions"></v-icon>
+        F.A.Qs.
+      </v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>
