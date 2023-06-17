@@ -2,7 +2,7 @@
   <v-card theme="dark" class="px-10 py-2">
     <v-card-title class="text-h5">List NFT for Sale</v-card-title>
     <v-card-subtitle>
-      There are to methods to list a NFT for sale
+      There are two methods to list an NFT for sale
     </v-card-subtitle>
     <v-card-title class="pb-0 mb-0 text-h6">Method 1</v-card-title>
     <v-card-subtitle> During NFT Minting </v-card-subtitle>
