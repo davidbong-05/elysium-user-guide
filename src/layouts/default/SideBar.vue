@@ -59,6 +59,11 @@
         to="/manage-nft-collection#link-nft-collection"
         variant="plain"
       ></v-list-item>
+      <v-list-item
+        title="Unlink NFT Collection"
+        to="/manage-nft-collection#unlink-nft-collection"
+        variant="plain"
+      ></v-list-item>
       <v-divider class="my-2"></v-divider>
       <v-list-item
         class="text-primary"
