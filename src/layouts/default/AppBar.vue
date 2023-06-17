@@ -13,7 +13,7 @@
       href="https://elysium-nft-marketplace.netlify.app/"
       target="_blank"
     >
-      Live Demo
+      Try Now
     </v-btn>
     <v-btn
       class="me-2"
