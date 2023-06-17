@@ -40,18 +40,23 @@
         variant="plain"
       ></v-list-item>
       <v-divider class="my-2"></v-divider>
-      <v-list-item class="text-primary" to="/" :active="false" variant="text">
+      <v-list-item
+        class="text-primary"
+        to="/manage-nft-collection"
+        :active="false"
+        variant="text"
+      >
         <v-icon icon="mdi-cards"></v-icon>
         Manage NFT Collection
       </v-list-item>
       <v-list-item
         title="Create NFT Collection"
-        to="/#"
+        to="/manage-nft-collection#create-nft-collection"
         variant="plain"
       ></v-list-item>
       <v-list-item
         title="Link NFT Collection"
-        to="/"
+        to="/manage-nft-collection#link-nft-collection"
         variant="plain"
       ></v-list-item>
       <v-divider class="my-2"></v-divider>

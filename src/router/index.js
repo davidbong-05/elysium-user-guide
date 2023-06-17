@@ -23,6 +23,14 @@ const routes = [
             /* webpackChunkName: "GettingStarted" */ "@/views/GettingStarted.vue"
           ),
       },
+      {
+        path: "/manage-nft-collection",
+        name: "ManageNftCollection",
+        component: () =>
+          import(
+            /* webpackChunkName: "GettingStarted" */ "@/views/ManageNftCollection.vue"
+          ),
+      },
     ],
   },
 ];
