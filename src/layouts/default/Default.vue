@@ -1,12 +1,13 @@
 <template>
   <v-app>
-    <default-bar />
-
+    <default-app-bar />
+    <default-side-bar />
     <default-view />
   </v-app>
 </template>
 
 <script setup>
-  import DefaultBar from './AppBar.vue'
-  import DefaultView from './View.vue'
+import DefaultAppBar from "./AppBar.vue";
+import DefaultSideBar from "./SideBar.vue";
+import DefaultView from "./View.vue";
 </script>
