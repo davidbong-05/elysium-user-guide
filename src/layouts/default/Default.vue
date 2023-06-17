@@ -2,7 +2,7 @@
   <v-app>
     <default-app-bar />
     <default-side-bar />
-    <default-view />
+    <default-view class="ms-6" />
   </v-app>
 </template>
 
