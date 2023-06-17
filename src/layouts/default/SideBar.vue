@@ -90,16 +90,33 @@
         variant="plain"
       ></v-list-item>
       <v-divider class="my-2"></v-divider>
-      <v-list-item class="text-primary" to="/" :active="false" variant="text">
+      <v-list-item
+        class="text-primary"
+        to="/buy-nft"
+        :active="false"
+        variant="text"
+      >
         <v-icon icon="mdi-cash"></v-icon>
         Buy NFT
       </v-list-item>
-      <v-list-item title="Buy NFT" to="/" variant="plain"></v-list-item>
-      <v-list-item title="Add NFT to Cart" to="/" variant="plain"></v-list-item>
-      <v-list-item title="Checkout" to="/" variant="plain"></v-list-item>
+      <v-list-item
+        title="Buy NFT"
+        to="/buy-nft#buy-nft"
+        variant="plain"
+      ></v-list-item>
+      <v-list-item
+        title="Add NFT to Cart"
+        to="/buy-nft#add-nft-to-cart"
+        variant="plain"
+      ></v-list-item>
+      <v-list-item
+        title="Checkout"
+        to="/buy-nft#checkout"
+        variant="plain"
+      ></v-list-item>
       <v-list-item
         title="Remove NFT from Cart"
-        to="/"
+        to="/buy-nft#remove-nft-from-cart"
         variant="plain"
       ></v-list-item>
     </v-list>
