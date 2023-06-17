@@ -60,7 +60,12 @@
         variant="plain"
       ></v-list-item>
       <v-divider class="my-2"></v-divider>
-      <v-list-item class="text-primary" to="/" :active="false" variant="text">
+      <v-list-item
+        class="text-primary"
+        to="/mint-nft"
+        :active="false"
+        variant="text"
+      >
         <v-icon icon="mdi-pencil-ruler"></v-icon>
         Mint NFT
       </v-list-item>

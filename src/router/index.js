@@ -31,6 +31,14 @@ const routes = [
             /* webpackChunkName: "GettingStarted" */ "@/views/ManageNftCollection.vue"
           ),
       },
+      {
+        path: "/mint-nft",
+        name: "MintNft",
+        component: () =>
+          import(
+            /* webpackChunkName: "GettingStarted" */ "@/views/MintNft.vue"
+          ),
+      },
     ],
   },
 ];
