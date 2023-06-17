@@ -1,6 +1,6 @@
 <template>
   <v-container fluid>
-    <h1>Mint</h1>
+    <h1>Mint NFT</h1>
     <v-divider class="my-2"></v-divider>
     <Precondition />
     <v-divider class="my-2"></v-divider>
