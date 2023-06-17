@@ -28,16 +28,20 @@ const routes = [
         name: "ManageNftCollection",
         component: () =>
           import(
-            /* webpackChunkName: "GettingStarted" */ "@/views/ManageNftCollection.vue"
+            /* webpackChunkName: "ManageNftCollection" */ "@/views/ManageNftCollection.vue"
           ),
       },
       {
         path: "/mint-nft",
         name: "MintNft",
         component: () =>
-          import(
-            /* webpackChunkName: "GettingStarted" */ "@/views/MintNft.vue"
-          ),
+          import(/* webpackChunkName: "MintNft" */ "@/views/MintNft.vue"),
+      },
+      {
+        path: "/sell-nft",
+        name: "SellNft",
+        component: () =>
+          import(/* webpackChunkName: "SellNft" */ "@/views/SellNft.vue"),
       },
     ],
   },

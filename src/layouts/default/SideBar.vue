@@ -70,18 +70,23 @@
         Mint NFT
       </v-list-item>
       <v-divider class="my-2"></v-divider>
-      <v-list-item class="text-primary" to="/" :active="false" variant="text">
+      <v-list-item
+        class="text-primary"
+        to="/sell-nft"
+        :active="false"
+        variant="text"
+      >
         <v-icon icon="mdi-cash-register"></v-icon>
         Sell NFT
       </v-list-item>
       <v-list-item
         title="List NFT for Sale"
-        to="/"
+        to="/sell-nft#list-nft-for-sale"
         variant="plain"
       ></v-list-item>
       <v-list-item
         title="Remove NFT from Sale List"
-        to="/"
+        to="/sell-nft#remove-nft-from-sale-list"
         variant="plain"
       ></v-list-item>
       <v-divider class="my-2"></v-divider>
