@@ -1,19 +1,44 @@
 <template>
-  <v-navigation-drawer width="max-content" theme="dark" permanent>
+  <v-navigation-drawer class="w-auto" theme="dark" permanent>
     <v-list class="mx-4 font-weight-bold text-capitalize" density="compact" nav>
       <v-list-item class="text-primary" to="/" :active="false" variant="text">
         <v-icon icon="mdi-script-text"></v-icon>
         Introduction
       </v-list-item>
-      <v-list-item class="text-primary" to="/" :active="false" variant="text">
+      <v-list-item
+        class="text-primary"
+        to="/getting-started"
+        :active="false"
+        variant="text"
+      >
         <v-icon icon="mdi-speedometer-slow"></v-icon>
         Getting Started
       </v-list-item>
-      <v-list-item title="Setup MetaMask" to="/" variant="plain"></v-list-item>
-      <v-list-item title="Sign Up" to="/#" variant="plain"></v-list-item>
-      <v-list-item title="Log In" to="/#" variant="plain"></v-list-item>
-      <v-list-item title="Edit Profile" to="/#" variant="plain"></v-list-item>
-      <v-list-item title="Log Out" to="/#" variant="plain"></v-list-item>
+      <v-list-item
+        title="Setup MetaMask"
+        to="/getting-started#setup-meta-mask"
+        variant="plain"
+      ></v-list-item>
+      <v-list-item
+        title="Sign Up"
+        to="/getting-started#sign-up"
+        variant="plain"
+      ></v-list-item>
+      <v-list-item
+        title="Log In"
+        to="/getting-started#log-in"
+        variant="plain"
+      ></v-list-item>
+      <v-list-item
+        title="Edit Profile"
+        to="/getting-started#edit-profile"
+        variant="plain"
+      ></v-list-item>
+      <v-list-item
+        title="Log Out"
+        to="/getting-started#log-out"
+        variant="plain"
+      ></v-list-item>
       <v-divider class="my-2"></v-divider>
       <v-list-item class="text-primary" to="/" :active="false" variant="text">
         <v-icon icon="mdi-cards"></v-icon>
