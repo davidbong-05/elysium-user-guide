@@ -3,8 +3,8 @@
     <h1>Frequently Asked Questions</h1>
     <v-divider class="my-2"></v-divider>
     <v-card theme="dark" class="px-10 py-2">
-      <v-card-title class="text-h5"
-        >Why after my NFT does not show up on my profile page after I mint/buy
+      <v-card-title class="text-h5"  >
+        Why my NFT does not show up on my profile page after I mint/buy
         it?
       </v-card-title>
       <v-card-subtitle> There are two cases </v-card-subtitle>
@@ -14,7 +14,7 @@
         of that NFT.</v-card-text
       >
 
-      <v-card-title class="pb-0 mb-0 text-h6">Method 2</v-card-title>
+      <v-card-title class="pb-0 mb-0 text-h6">Case 2</v-card-title>
       <v-card-text>
         You listed the NFT for sale, check out "OnSale" tab inside your profile
         page.
