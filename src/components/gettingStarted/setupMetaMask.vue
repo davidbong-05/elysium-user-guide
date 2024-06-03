@@ -37,7 +37,7 @@
           class="rounded-lg"
           :width="300"
           aspect-ratio="16/9"
-          src="src\assets\polygon-faucet.png"
+          :src="polygonFaucet"
         ></v-img>
         </v-card-text>
         <v-card-subtitle><small>** Make sure you choose the correct network: Polygon PoS(AMoy) & paste the correct wallet address</small>
@@ -111,5 +111,5 @@
 </template>
 
 <script setup>
-//
+import polygonFaucet from '@/assets/polygon-faucet.png';
 </script>
