@@ -8,14 +8,41 @@
           https://metamask.io/download/
         </a>
       </v-list-item>
-      <v-list-item title="Step 2:">
-        <v-card-text>
-          Get Sepolia ETH from:
-          <a href="https://sepoliafaucet.com/" target="_blank">
-            https://sepoliafaucet.com/
+      <v-list-item>
+        Step 2: How to view testnet in MetaMask:
+        <a
+          href="https://support.metamask.io/hc/en-us/articles/13946422437147-How-to-view-testnets-in-MetaMask"
+          target="_blank"
+        >
+          https://support.metamask.io/hc/en-us/articles/13946422437147-How-to-view-testnets-in-MetaMask
+        </a>
+      </v-list-item>
+      <v-list-item>
+        Step 3: Add Polygon Amoy Testnet:
+        <a
+          href="https://support.polygon.technology/support/solutions/articles/82000907114-how-to-add-amoy-network-in-your-wallet-"
+          target="_blank"
+        >
+          https://support.polygon.technology/support/solutions/articles/82000907114-how-to-add-amoy-network-in-your-wallet-
+        </a>
+      </v-list-item>
+      <v-list-item>Step 4: Change to Polygon Amoy Testnet </v-list-item>
+      <v-list-item>
+        Step 5: Get Polygon Amoy MATIC from:
+          <a href="https://faucet.polygon.technology/" target="_blank">
+            https://faucet.polygon.technology/
           </a>
+        <v-card-text>
+        <v-img
+          class="rounded-lg"
+          :width="300"
+          aspect-ratio="16/9"
+          src="src\assets\polygon-faucet.png"
+        ></v-img>
         </v-card-text>
-        <span class="text-center">OR</span>
+        <v-card-subtitle><small>** Make sure you choose the correct network: Polygon PoS(AMoy) & paste the correct wallet address</small>
+</v-card-subtitle>
+        <!-- <span class="text-center">OR</span>
         <v-card-text>
           Import one of the following tester account into your MetaMask:
           <ul class="ms-4 my-4">
@@ -77,18 +104,8 @@
               />
             </li>
           </ul>
-        </v-card-text>
+        </v-card-text> -->
       </v-list-item>
-      <v-list-item>
-        Step 3: Add Sepolia Testnet:
-        <a
-          href="https://support.metamask.io/hc/en-us/articles/13946422437147-How-to-view-testnets-in-MetaMask"
-          target="_blank"
-        >
-          https://support.metamask.io/hc/en-us/articles/13946422437147-How-to-view-testnets-in-MetaMask
-        </a>
-      </v-list-item>
-      <v-list-item>Step 4: Change to Sepolia Testnet </v-list-item>
     </v-list>
   </v-card>
 </template>
