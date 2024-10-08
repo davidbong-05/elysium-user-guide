@@ -29,19 +29,23 @@
       <v-list-item>Step 4: Change to Polygon Amoy Testnet </v-list-item>
       <v-list-item>
         Step 5: Get Polygon Amoy MATIC from:
-          <a href="https://faucet.polygon.technology/" target="_blank">
-            https://faucet.polygon.technology/
-          </a>
+        <a href="https://faucet.polygon.technology/" target="_blank">
+          https://faucet.polygon.technology/
+        </a>
         <v-card-text>
-        <v-img
-          class="rounded-lg"
-          :width="300"
-          aspect-ratio="16/9"
-          :src="polygonFaucet"
-        ></v-img>
+          <v-img
+            class="rounded-lg"
+            :width="300"
+            aspect-ratio="16/9"
+            :src="polygonFaucet"
+          ></v-img>
         </v-card-text>
-        <v-card-subtitle><small>** Make sure you choose the correct network: Polygon PoS(AMoy) & paste the correct wallet address</small>
-</v-card-subtitle>
+        <v-card-subtitle
+          ><small
+            >** Make sure you choose the correct network: Polygon PoS(AMoy) &
+            paste the correct wallet address</small
+          >
+        </v-card-subtitle>
         <!-- <span class="text-center">OR</span>
         <v-card-text>
           Import one of the following tester account into your MetaMask:
@@ -111,5 +115,5 @@
 </template>
 
 <script setup>
-import polygonFaucet from '@/assets/polygon-faucet.png';
+import polygonFaucet from "@/assets/polygon-faucet.png";
 </script>
