@@ -18,13 +18,14 @@
         </a>
       </v-list-item>
       <v-list-item>
-        Step 3: Add Polygon Amoy Testnet:
-        <a
-          href="https://support.polygon.technology/support/solutions/articles/82000907114-how-to-add-amoy-network-in-your-wallet-"
-          target="_blank"
-        >
-          https://support.polygon.technology/support/solutions/articles/82000907114-how-to-add-amoy-network-in-your-wallet-
-        </a>
+        Step 3: Add Polygon Amoy Testnet in your Metamask:
+        <v-code>
+          <p>Network Name: POLYGON AMOY TESTNET</p>
+          <p>New RPC URL: https://polygon-amoy.drpc.org</p>
+          <p>Chain ID: 80002</p>
+          <p>Currency Symbol: MATIC</p>
+          <p>Block Explorer URL: https://www.oklink.com/amoy</p>
+        </v-code>
       </v-list-item>
       <v-list-item>Step 4: Change to Polygon Amoy Testnet </v-list-item>
       <v-list-item>
