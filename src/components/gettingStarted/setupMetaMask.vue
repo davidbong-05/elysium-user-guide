@@ -23,7 +23,7 @@
           <p>Network Name: POLYGON AMOY TESTNET</p>
           <p>New RPC URL: https://polygon-amoy.drpc.org</p>
           <p>Chain ID: 80002</p>
-          <p>Currency Symbol: MATIC</p>
+          <p>Currency Symbol: POL</p>
           <p>Block Explorer URL: https://www.oklink.com/amoy</p>
         </v-code>
       </v-list-item>
