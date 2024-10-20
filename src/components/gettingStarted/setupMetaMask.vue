@@ -19,10 +19,10 @@
       </v-list-item>
       <v-list-item>
         Step 3: Add Polygon Amoy Testnet in your Metamask:<a
-          href="https://support.metamask.io/hc/en-us/articles/13946422437147-How-to-view-testnets-in-MetaMask"
+          href="https://chainlist.org/?chain=1&testnets=true&search=amoy"
           target="_blank"
         >
-          https://support.metamask.io/hc/en-us/articles/13946422437147-How-to-view-testnets-in-MetaMask
+          https://chainlist.org/?chain=1&testnets=true&search=amoy
         </a>
       </v-list-item>
       <v-list-item>Step 4: Change to Polygon Amoy Testnet </v-list-item>
